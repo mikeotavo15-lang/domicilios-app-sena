@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(
-        title: 'Aplicación Modificada por Valentina',
+        title: 'Aplicación Modificada por Valentina hi ',
       ),
     );
   }
@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   const SizedBox(height: 10),
                   const Text(
-                    'Modificación realizada por Valentina',
+                    'Modificación realizada por Valentina hi',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 18,
@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ElevatedButton.icon(
                     onPressed: _resetCounter,
                     icon: const Icon(Icons.refresh),
-                    label: const Text('Reiniciar contador'),
+                    label: const Text('Reiniciar contador 0'),
                   ),
                 ],
               ),
